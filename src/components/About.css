@@ -1,0 +1,42 @@
+.about-container{
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(106, 3, 135, 0.5), rgba(2, 8, 93, 0.75));
+    background-size:cover;
+    background-position: center;
+}
+
+.about-text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about-heading{
+    color: white;
+    font-weight: 600;
+}
+
+.abt-images{
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.abt-cont{
+    padding-top: 30px;
+    min-height: 70vh;
+    width: 100%;
+    background-color: rgb(250, 245, 245);
+}
+
+.about-p{
+    padding-top: 30px;
+}
+
+@media screen and (max-width:780px){
+    .abt-images{
+        width: 200px;
+    }
+}

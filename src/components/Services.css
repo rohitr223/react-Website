@@ -1,0 +1,30 @@
+.services{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(250, 247, 247);
+}
+
+.container{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.serv-img{
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.serv-para{
+    margin-top: 30px;
+}
+
+.serv-heading{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:780px){
+    .serv-img{
+        width: 300px;
+    }
+}
